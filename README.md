@@ -1,59 +1,53 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistem Informasi SD Rimba Putra 🏫
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Website-success?style=for-the-badge&logo=google-chrome)](https://sdrimbaputra.page.gd/?i=1)
 
-## About Laravel
+Repositori ini berisi *source code* untuk Sistem Informasi SD Rimba Putra. Proyek ini dikembangkan sebagai tugas akhir (Skripsi) Program Studi Ilmu Komputer, Universitas Djuanda. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Sistem ini dirancang untuk menjadi media informasi dan manajemen sekolah yang lebih terstruktur dan efektif dibandingkan penggunaan media sosial, serta mempermudah interaksi di lingkungan SD Rimba Putra.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🔗 Live Website
+Sistem ini sudah berjalan secara langsung (*live*) dan dapat diakses melalui tautan berikut:
+**[Kunjungi Website SD Rimba Putra](https://sdrimbaputra.page.gd/?i=1)**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 💼 Peran & Tanggung Jawab (Full-Stack Developer Jobdesk)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Sebagai pengembang tunggal (*solo developer*) pada proyek ini, saya bertanggung jawab atas seluruh alur pengembangan sistem dari *backend* hingga *frontend*:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### ⚙️ Backend Engineering
+* **Arsitektur Database:** Merancang skema relasi basis data (*ERD*) dan mengimplementasikan *migration* serta *seeder* menggunakan MySQL.
+* **Logika Bisnis & MVC:** Mengembangkan arsitektur aplikasi berbasis MVC (*Model-View-Controller*) menggunakan Framework Laravel.
+* **Autentikasi & Keamanan (RBAC):** Membangun sistem *Role-Based Access Control* (RBAC) untuk mengamankan hak akses 3 level pengguna secara fleksibel.
+* **Manajemen Data (CRUD):** Mengembangkan API/Route backend untuk pengelolaan data master, pengumuman, modul akademik, dan akun pengguna.
+* **Keamanan Aplikasi:** Menerapkan proteksi keamanan standar web seperti *CSRF protection*, *input sanitization*, dan *password hashing*.
+* **Deployment & Hosting:** Melakukan konfigurasi *web server* dan *database deployment* hingga sistem dapat diakses publik.
 
-## Laravel Sponsors
+### 🎨 Frontend Engineering
+* **Desain UI/UX & Antarmuka:** Merancang tata letak *layout* yang responsif (*mobile-friendly*) menggunakan Blade Templating Engine dan CSS Framework.
+* **Dashboard Multirole:** Membangun *dashboard* interaktif yang menyesuaikan tampilan berdasarkan peran *user* yang sedang *login*.
+* **Integrasi Data:** Menghubungkan antarmuka *frontend* dengan logika *backend* untuk penyajian data dinamis (berita, pengumuman, dan jadwal).
+* **Interaktivitas:** Mengimplementasikan JavaScript untuk penanganan form, validasi *client-side*, dan komponen antarmuka yang dinamis.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🚀 Fitur Utama
+Sistem ini mencakup manajemen informasi sekolah dengan pembagian hak akses menjadi 3 level pengguna (*user roles*):
+1. **Administrator:** Mengelola data master, konten website, pengumuman, dan akun pengguna.
+2. **Guru:** Mengakses informasi akademik dan jadwal terkait kegiatan belajar mengajar.
+3. **Siswa / Wali Murid:** Melihat informasi publik sekolah, pengumuman, dan transparansi akademik.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🛠️ Teknologi yang Digunakan
+* **Language:** PHP 8.x, JavaScript (ES6), HTML5, CSS3
+* **Framework:** Laravel
+* **Database:** MySQL
+* **Frontend Tools:** Blade Templating, Bootstrap / Tailwind CSS
+* **Version Control & Tools:** Git, GitHub, VS Code
 
-## Contributing
+## 💻 Instalasi Lokal (Development)
+Jika Anda ingin menjalankan proyek ini di mesin lokal:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Clone repositori ini**
+   ```bash
+   git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
