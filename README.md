@@ -45,9 +45,3 @@ Sistem ini mencakup manajemen informasi sekolah dengan pembagian hak akses menja
 * **Frontend Tools:** Blade Templating, Bootstrap / Tailwind CSS
 * **Version Control & Tools:** Git, GitHub, VS Code
 
-## 💻 Instalasi Lokal (Development)
-Jika Anda ingin menjalankan proyek ini di mesin lokal:
-
-1. **Clone repositori ini**
-   ```bash
-   git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
